@@ -2,7 +2,7 @@
 
 /**
  * mul_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
+ * @rock: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
 void mul_nodes(stack_t **rock, unsigned int line_number)
@@ -22,8 +22,8 @@ void mul_nodes(stack_t **rock, unsigned int line_number)
 
 /**
  * mod_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @ack: Pointer to a pointer pointing to top node of the stack.
+ * @li_num: Interger representing the line number of of the opcode.
  */
 void mod_nodes(stack_t **ack, unsigned int li_num)
 {

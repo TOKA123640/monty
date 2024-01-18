@@ -2,8 +2,8 @@
 
 /**
  * nop - Does nothing.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @tack: Pointer to a pointer pointing to top node of the stack.
+ * @line_first: Interger representing the line number of of the opcode.
  */
 void nop(stack_t **tack, unsigned int line_first)
 {
@@ -15,7 +15,7 @@ void nop(stack_t **tack, unsigned int line_first)
 /**
  * swap_nodes - Swaps the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @first_number: Interger representing the line number of of the opcode.
  */
 void swap_nodes(stack_t **stack, unsigned int first_number)
 {
@@ -35,7 +35,7 @@ void swap_nodes(stack_t **stack, unsigned int first_number)
 
 /**
  * add_nodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
+ * @ack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
 void add_nodes(stack_t **ack, unsigned int line_number)
@@ -56,7 +56,7 @@ void add_nodes(stack_t **ack, unsigned int line_number)
 /**
  * sub_nodes - Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @l_num: Interger representing the line number of of the opcode.
  */
 void sub_nodes(stack_t **stack, unsigned int l_num)
 {
@@ -78,7 +78,7 @@ void sub_nodes(stack_t **stack, unsigned int l_num)
 /**
  * div_nodes - Adds the top two elements of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @one_number: Interger representing the line number of of the opcode.
  */
 void div_nodes(stack_t **stack, unsigned int one_number)
 {
